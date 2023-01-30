@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th {
+            /* padding: 10px; */
+        }
+
+        td {
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2>UNORDER LIST</h2>
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ul>
+    <hr>
+    <h2>ORDER LIST</h2>
+    <ol>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ol> <hr>
+    <h2>DEFINATION LIST</h2>
+    <dl>
+        <dt>item1</dt>
+        <dd>item2 and item3</dd>
+        <dt>item4</dt>
+        <dd>item5 and item6</dd>
+    </dl> <hr>
+    <h2>NESTED LIST</h2>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea
+            <ul>
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ul>
+        </li>
+        <li>Milk</li>
+    </ul> <hr>
+    <h2>LINK TO MOVE ONTHER PAGE</h2>
+    <a href="https://www.google.com">click here</a> <hr>
+
+    <h2>TIME TABLE</h2>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Subject</th>
+            <th>Class</th>
+            <th>M/N</th>
+        </tr>
+        <tr>
+            <td>7:40</td>
+            <td rowspan="3">HTML/CSS</td>
+            <td>E-803</td>
+            <td>Morning</td>
+        </tr>
+        <tr>
+            <td>9:30</td>
+            <td>E-801</td>
+            <td>Noon</td>
+        </tr>
+        <tr>
+            <td>7:40</td>
+            <td colspan="2">E-810 Morning</td>
+        </tr>
+        <tr>
+            <td>8:30</td>
+            <td rowspan="2">HTML/CSS</td>
+            <td>E-805</td>
+            <td>Morning</td>
+        </tr>
+        <tr>
+            <td>9:30</td>
+            <td colspan="3">E-804 Noon</td>
+
+        </tr>
+    </table> <hr>
+
+</body>
+
+</html>
